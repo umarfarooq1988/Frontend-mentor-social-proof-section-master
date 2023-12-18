@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Frontend Mentor | Social proof section</title>
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   .container {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+  
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  
+</head>
+
+<body>
+  <div class="container h-screen md:px-0 px-[25px] m-auto">
+    <div class="top flex justify-between mt-12 flex-wrap">
+      <div class="header md:w-fit w-full  md:text-left text-center">
+        <h1 class="font-extrabold text-[#51204f] text-4xl">10,000+ of our <br> users love our <br> products.</h1>
+        <p class="text-sm text-[#b9aeb7] pt-4">We only provide great products combined with excellent <br> customer
+          service.
+          See what our satisfied customers are <br> saying about our services.</p>
+      </div>
+      <div class="stars md:w-fit w-full md:m-10 my-10">
+        <div class="starts-1 flex flex-wrap bg-[#f7f2f8] mb-3 p-3 rounded-xl">
+          <div class="img flex mr-6 gap-1">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+
+          </div>
+
+          <p class="text-xm text-center">Rated 5 Stars in Reviews</p>
+        </div>
+        <div class="stars-1 flex flex-wrap bg-[#f7f2f8] mb-3 p-3 rounded-xl md:ml-7 ml-0">
+          <div class="img flex mr-5 gap-1">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+          </div>
+          <p class="text-xm text-center">Rated 5 Stars in Report Guru</p>
+        </div>
+        <div class="stars-1 flex flex-wrap bg-[#f7f2f8] mb-3 p-3 rounded-xl md:ml-14 ml-0">
+          <div class="img flex mr-4 gap-1">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+            <img src="./images/icon-star.svg" class="h-5" alt="star">
+          </div>
+          <p class="text-xm text-center">Rated 5 Stars in BestTech</p>
+        </div>
+      </div>
+    </div>
+    
+      <div class="md:flex items-start mt-12 gap-x-3">
+        
+          <div class="card-1 bg-[#511f50]  p-12 rounded-xl w-full">
+            <div class="profile flex">
+              <div class="img-profile w-10 mr-4">
+                <img src="./images/image-colton.jpg" class="rounded-full" alt="Irene">
+              </div>
+              <div>
+                <h3 class="text-white">Colton Smith</h3>
+                <h4 class="text-[#d06aa5]">Verified Buyer</h4>
+              </div>
+            </div>
+            <p class="text-white text-[17px]">"We needed the same printed design as the one we had ordered a week prior.
+              Not only did they find the original order, but <br> we also received it in time.
+              Excellent!"</p>
+            </div>
+        
+          <div class="card-2 bg-[#511f50]  p-12  rounded-xl mt-5 w-full">
+            <div class="profile flex">
+              <div class="img-profile w-10 mr-4">
+                <img src="./images/image-irene.jpg" class="rounded-full" alt="Irene">
+              </div>
+              <div>
+                <h3 class="text-white">Irene Roberts </h3>
+                <h4 class="text-[#d06aa5]">Verified Buyer</h4>
+              </div>
+            </div>
+            <p class="text-white text-[17px]">"Customer service is always excellent and very quick turn around. Completely
+              delighted with the simplicity of the purchase and the speed of delivery."</p>
+          </div>
+       
+          <div class="card-3 bg-[#511f50]  p-12  rounded-xl mt-12 w-full">
+            <div class="profile flex">
+              <div class="img-profile w-10 mr-4">
+                <img src="./images/image-anne.jpg" class="rounded-full" alt="anne">
+              </div>
+              <div>
+                <h3 class="text-white">Anne Wallace </h3>
+                <h4 class="text-[#d06aa5]">Verified Buyer</h4>
+              </div>
+            </div>
+            <p class="text-white text-[16px]">
+              "Put an order with this company and can only praise them for the very high
+              standard. Will definitely use them again and recommend them to everyone!"</p>
+          </div>
+      </div>
+  </div>
+  
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">
+      Umar Farooq</a>.
+  </div>
+</body>
+
+</html>
